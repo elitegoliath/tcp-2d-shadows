@@ -8,8 +8,8 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: CustomSprite (Vertex Lit, Normal Map, Specular)
   m_Shader: {fileID: 4800000, guid: 33b83ec84e459f742b6679edfdb486a3, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ALPHABLEND_ON _EMISSION _GLOSSYREFLECTIONS_OFF
-    _NORMALMAP _SPECULAR_GLOSSMAP _ZWRITE_OFF
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ALPHABLEND_ON _GLOSSYREFLECTIONS_OFF _NORMALMAP
+    _SPECULAR_GLOSSMAP _ZWRITE_OFF
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -31,7 +31,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 20497c37ed7d5824bb3f95db3d607547, type: 3}
+        m_Texture: {fileID: 2800000, guid: a044272ae52e11f4dba152a2e851d375, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -51,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: b2c22f05715349e4bb5cfb88a934f52b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: c7ac14b620c3ba345b2112ddb1a7a6f6, type: 3}
+        m_Texture: {fileID: 2800000, guid: db737d51dad9ed64fa28c21a5dab7e14, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -74,7 +74,7 @@ Material:
     - PixelSnap: 0
     - _BlendAmount: 0
     - _Brightness: 1
-    - _BumpScale: 1
+    - _BumpScale: 0.5
     - _Cull: 0
     - _CustomRenderQueue: 0
     - _Cutoff: 0.5
@@ -82,7 +82,7 @@ Material:
     - _DstBlend: 10
     - _EmissionPower: 2
     - _EnableExternalAlpha: 0
-    - _GlossMapScale: 0.808
+    - _GlossMapScale: 0.35
     - _Glossiness: 0.752
     - _GlossyReflections: 0
     - _Hue: 0
@@ -93,7 +93,7 @@ Material:
     - _RenderQueue: 0
     - _RimPower: 1.57
     - _Saturation: 1
-    - _ShadowAlphaCutoff: 0.1
+    - _ShadowAlphaCutoff: 0.335
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
