@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.5.0</string>
         <key>fileName</key>
-        <string>D:/My Files/BCT/LD43 Yank Train/Art Assets/Characters/Avatar/Avatar.tps</string>
+        <string>D:/My Files/BCT/The Cyberdin Project/Unity/Lighting Test/tcp-2d-shadows/Art Assets/Avatar.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -150,7 +150,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../../ld43-yank-train/LD43 Yank Train/Assets/Sprites/Characters/Avatar/AvatarSheet2.tpsheet</filename>
+                <filename>../../../ld43-yank-train/LD43 Yank Train/Assets/Sprites/Characters/Avatar/AvatarSheet.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -227,10 +227,22 @@
                 <false/>
             </struct>
             <key type="filename">Avatar Atlas/AvatarForearmL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.6241,0.14897</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>18,39,36,79</rect>
+                <key>scale9Paddings</key>
+                <rect>18,39,36,79</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">Avatar Atlas/AvatarForearmR.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
+                <point_f>0.36193,0.14904</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
@@ -255,10 +267,9 @@
                 <false/>
             </struct>
             <key type="filename">Avatar Atlas/AvatarHelmet.png</key>
-            <key type="filename">Avatar Atlas/AvatarHelmet_NRM.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
+                <point_f>0.51,0.2903</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
@@ -269,10 +280,22 @@
                 <false/>
             </struct>
             <key type="filename">Avatar Atlas/AvatarUpperArmL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.52142,0.18789</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>19,35,38,70</rect>
+                <key>scale9Paddings</key>
+                <rect>19,35,38,70</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">Avatar Atlas/AvatarUpperArmR.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
+                <point_f>0.4971,0.22892</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
